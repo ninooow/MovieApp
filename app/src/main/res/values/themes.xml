@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.MovieApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_light</item>
+    </style>
+    <style name="Base.Theme.MovieApp.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green_light</item>
+    </style>
+    <style name="Theme.MyCourse.WithActionBar.Options" parent="Base.Theme.MovieApp.WithActionBar">
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+    <style name="Theme.MyCourse.WithActionBar.NoOptions" parent="Base.Theme.MovieApp.WithActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="Theme.MovieApp" parent="Base.Theme.MovieApp" />
+    <style name="Theme.MovieApp.WithActionBar" parent="Base.Theme.MovieApp.WithActionBar" />
+</resources>

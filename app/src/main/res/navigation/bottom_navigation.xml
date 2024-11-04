@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/berandaFragment">
+
+    <fragment
+        android:id="@+id/berandaFragment"
+        android:name="com.example.movieapp.BerandaFragment"
+        android:label="fragment_beranda"
+        tools:layout="@layout/fragment_beranda" />
+    <fragment
+        android:id="@+id/riwayatFragment"
+        android:name="com.example.movieapp.RiwayatFragment"
+        android:label="fragment_riwayat"
+        tools:layout="@layout/fragment_riwayat" />
+    <fragment
+        android:id="@+id/kuponFragment"
+        android:name="com.example.movieapp.KuponFragment"
+        android:label="fragment_kupon"
+        tools:layout="@layout/fragment_kupon" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.movieapp.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
